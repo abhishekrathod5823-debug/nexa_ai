@@ -12,9 +12,7 @@ app = FastAPI(title="Nexa AI API")
 # CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "https://comforting-cascaron-2bf29b.netlify.app"
-    ],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
