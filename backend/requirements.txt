@@ -36,3 +36,4 @@ email-validator
 groq==1.5.0
 fastapi
 uvicorn
+bcrypt==4.0.1
