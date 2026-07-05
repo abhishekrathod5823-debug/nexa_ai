@@ -26,8 +26,3 @@ app.include_router(message_routes.router)
 @app.get("/")
 def root():
     return {"message": "Nexa AI Backend is running!"}
-@app.get("/reset-db")
-def reset_db():
-    Base.metadata.drop_all(bind=engine)
-    Base.metadata.create_all(bind=engine)
-    return {"message": "Database reset successful!"}
