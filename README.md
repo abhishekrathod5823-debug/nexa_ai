@@ -153,17 +153,17 @@ pip install -r requirements.txt
 ### 3. Configure environment variables
 Create a `.env` file inside the `backend/` folder:
 ```env
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=root
+DB_HOST=*******
+DB_PORT==*******
+DB_USER==*******
 DB_PASSWORD=
 DB_NAME=nexa_ai
 
-JWT_SECRET=your_super_secret_key_here
-JWT_ALGORITHM=HS256
-JWT_EXPIRE_MINUTES=1440
+JWT_SECRET==*******
+JWT_ALGORITHM==*******
+JWT_EXPIRE_MINUTES==*******
 
-GROQ_API_KEY=your_groq_api_key_here
+GROQ_API_KEY==*******
 ```
 
 > **Get a free Groq API key:** https://console.groq.com
